@@ -20,7 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/product/6G0A7199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/6G0A7200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/BoySweater1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Green-Sweater.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Kashgar-96141_1021-76M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Perfume De Rose-59338_1024-25M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Red-Sweater.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/SFJ001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/SFJ002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/SFJ003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/SFJ004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Web-Image-layout-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Web-Image-layout-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Women's-Sports-Bra-1-600X650-Black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Women's-Sports-Bra-1-600X650-Gray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Women's-Sports-Bra-1-600X650-Light Pink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Women's-Sports-Bra-1-600X650-Megenta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/Women's-Sports-Bra-1-600X650-Sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/bra1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/bra2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/girl-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/leggings6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/trunk-yellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/product/trunks-green.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fl-bra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fl-fra.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/fl-fra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fl-ger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +67,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vL62RiYE2GJ8Ev48Itk3JGFR5j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
     <property name="com.google.cloudcode.ide_session_index" value="20210715_0001" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images/logo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,5 +120,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
