@@ -2507,18 +2507,18 @@ input:focus, textarea:focus {
 
 .slider-area .owl-slider .slider-item1 img {
   width: auto;
-  max-width: 500px;
+  max-width: 835px;
   position: absolute;
+  margin-right: 3px;
   bottom: 0;
-  right: 25px;
 }
 
 .slider-area .owl-slider .slider-item2 img {
   width: auto;
-  max-width: 400px;
+  max-width: 835px;
   position: absolute;
-  top: 20px;
-  left: 30px;
+  top: 0px;
+
 }
 
 .slider-area .owl-slider .owl-nav div {
