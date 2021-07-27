@@ -376,6 +376,49 @@ input:focus, textarea:focus {
   font-weight: normal;
 }
 
+.top-bar .top-left .social-link ul li a i {
+  font-size: 15px;
+  color: #fff;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  padding-top: 12px;
+  margin-top: 0;
+  margin-left: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.top-bar .top-left .social-link ul li a i:hover {
+  background: #f7911d !important;
+}
+
+.top-bar .top-left .social-link ul li:nth-child(1) a i {
+  background: #3b5998;
+}
+
+.top-bar .top-left .social-link ul li:nth-child(2) a i {
+  background: #1da1f2;
+}
+
+.top-bar .top-left .social-link ul li:nth-child(3) a i {
+  background: #0077b5;
+}
+
+.top-bar .top-left .social-link ul li:nth-child(4) a i {
+  background: #ff0000;
+}
+
+.top-bar .top-left .social-link ul li:nth-child(5) a i {
+  background: #bd081c;
+}
+.top-bar .top-left .social-link .fa{
+  height: 30px;
+  width: 30px;
+  margin-top:5px;
+}
 .top-bar .top-left .mny-box {
   position: relative;
   height: 40px;
