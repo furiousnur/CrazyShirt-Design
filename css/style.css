@@ -396,11 +396,11 @@ input:focus, textarea:focus {
 .top-bar .top-left .f-social ul li a i:hover {
   background: unset !important;
   border-color: unset !important;
-  color: #ed1c24;
+  color: #ff1d1d;
 }
 .top-bar .top-left.list-inline-item:not(:last-child) {
   margin-right: unset !important;
-
+  color: #ed1c24;
 }
 .top-bar .top-left .f-social .fa{
   height: 30px;
