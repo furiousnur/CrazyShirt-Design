@@ -2549,6 +2549,7 @@ input:focus, textarea:focus {
 
 .slider-area .owl-slider .slider-item1 img {
   width: auto;
+  height: 368px;
   max-width: 835px;
   position: absolute;
   margin-right: 3px;
@@ -2557,10 +2558,10 @@ input:focus, textarea:focus {
 
 .slider-area .owl-slider .slider-item2 img {
   width: auto;
+  height: 368px;
   max-width: 835px;
   position: absolute;
   top: 0px;
-
 }
 
 .slider-area .owl-slider .owl-nav div {
