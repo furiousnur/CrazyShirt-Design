@@ -398,7 +398,7 @@ input:focus, textarea:focus {
   border-color: unset !important;
   color: #ff1d1d;
 }
-.top-bar .top-left.list-inline-item:not(:last-child) {
+.top-bar .top-left .list-inline-item:not(:last-child) {
   margin-right: unset !important;
   color: #ed1c24;
 }
