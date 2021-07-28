@@ -400,13 +400,12 @@ input:focus, textarea:focus {
 }
 .top-bar .top-left .list-inline-item:not(:last-child) {
   margin-right: unset !important;
-  color: #ed1c24;
 }
 .top-bar .top-left .f-social .fa{
   height: 30px;
   width: 30px;
   margin-top:10px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .top-bar .top-left .mny-box {
   position: relative;
