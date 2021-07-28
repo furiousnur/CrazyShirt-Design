@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> d41c079483ef9c5086c0b286ff26156a2c34e1f8
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +38,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1vL62RiYE2GJ8Ev48Itk3JGFR5j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
     <property name="com.google.cloudcode.ide_session_index" value="20210728_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Platinum" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+>>>>>>> d41c079483ef9c5086c0b286ff26156a2c34e1f8
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +83,14 @@
       <workItem from="1626329580506" duration="12041000" />
       <workItem from="1626349835641" duration="717000" />
       <workItem from="1626581215967" duration="33000" />
+<<<<<<< HEAD
       <workItem from="1627453452862" duration="3205000" />
+=======
+      <workItem from="1627453452862" duration="1319000" />
+      <workItem from="1627458977153" duration="48000" />
+      <workItem from="1627459093203" duration="636000" />
+      <workItem from="1627461513793" duration="7009000" />
+>>>>>>> d41c079483ef9c5086c0b286ff26156a2c34e1f8
     </task>
     <servers />
   </component>
@@ -82,6 +108,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1627468501595">

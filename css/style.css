@@ -375,49 +375,34 @@ input:focus, textarea:focus {
   color: #555555;
   font-weight: normal;
 }
+ .top-bar .top-left.f-social {
+  display: inline-block;
+  margin-top: 10px;
+}
 
-.top-bar .top-left .social-link ul li a i {
-  font-size: 15px;
-  color: #fff;
-  width: 38px;
-  height: 38px;
+.top-bar .top-left. f-social ul li a i {
+  font-size: 13px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 28px;
+  height: 28px;
   text-align: center;
-  padding-top: 12px;
-  margin-top: 0;
-  margin-left: 10px;
+  padding-top: 7px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-
-.top-bar .top-left .social-link ul li a i:hover {
-  background: #f7911d !important;
+.top-bar .top-left .f-social ul li a i:hover {
+  background: #f7911d;
+  border-color: #f7911d;
+  color: #e5e5e5;
 }
-
-.top-bar .top-left .social-link ul li:nth-child(1) a i {
-  background: #3b5998;
-}
-
-.top-bar .top-left .social-link ul li:nth-child(2) a i {
-  background: #1da1f2;
-}
-
-.top-bar .top-left .social-link ul li:nth-child(3) a i {
-  background: #0077b5;
-}
-
-.top-bar .top-left .social-link ul li:nth-child(4) a i {
-  background: #ff0000;
-}
-
-.top-bar .top-left .social-link ul li:nth-child(5) a i {
-  background: #bd081c;
-}
-.top-bar .top-left .social-link .fa{
+.top-bar .top-left .f-social .fa{
   height: 30px;
   width: 30px;
-  margin-top:5px;
+  margin-top:10px;
+  margin-left: 10px;
 }
 .top-bar .top-left .mny-box {
   position: relative;
@@ -2233,8 +2218,7 @@ input:focus, textarea:focus {
   right: inherit;
   top: 0;
   width: 23px;
-  margin-top: 20px;
-  margin-left: 30px;
+
 }
 
 .mean-container .mean-bar .meanmenu-reveal span {
@@ -2550,6 +2534,7 @@ input:focus, textarea:focus {
 
 .slider-area .owl-slider .slider-item1 img {
   width: auto;
+  height: 368px;
   max-width: 835px;
   position: absolute;
   margin-right: 3px;
@@ -2558,10 +2543,10 @@ input:focus, textarea:focus {
 
 .slider-area .owl-slider .slider-item2 img {
   width: auto;
+  height: 368px;
   max-width: 835px;
   position: absolute;
   top: 0px;
-
 }
 
 .slider-area .owl-slider .owl-nav div {
