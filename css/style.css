@@ -394,9 +394,9 @@ input:focus, textarea:focus {
   border-radius: 50%;
 }
 .top-bar .top-left .f-social ul li a i:hover {
-  background: #f7911d;
-  border-color: #f7911d;
-  color: #e5e5e5;
+  background: unset !important;
+  border-color: unset !important;
+  color: #ff1d1d;
 }
 .top-bar .top-left .f-social .fa{
   height: 30px;
