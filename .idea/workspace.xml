@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-1106X368px-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-1106X368px.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-835X368-V1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-835X368-V2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1627453452862" duration="1319000" />
       <workItem from="1627458977153" duration="48000" />
       <workItem from="1627459093203" duration="636000" />
-      <workItem from="1627461513793" duration="3409000" />
+      <workItem from="1627461513793" duration="7009000" />
     </task>
     <servers />
   </component>
