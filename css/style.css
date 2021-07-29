@@ -9221,13 +9221,6 @@ input:focus, textarea:focus {
   margin-top: 5px;
 }
 
-.contact-area .contact-box .contact-content h6 {
-  color: #444444;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
 .contact-area .contact-box .contact-content p {
   font-size: 15px;
   color: #969696;
