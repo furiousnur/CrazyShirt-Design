@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-single-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/20-contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
@@ -77,7 +83,8 @@
       <workItem from="1627453452862" duration="1319000" />
       <workItem from="1627458977153" duration="48000" />
       <workItem from="1627459093203" duration="636000" />
-      <workItem from="1627461513793" duration="10855000" />
+      <workItem from="1627461513793" duration="12311000" />
+      <workItem from="1627531739627" duration="7251000" />
     </task>
     <servers />
   </component>

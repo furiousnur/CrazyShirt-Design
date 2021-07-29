@@ -400,12 +400,13 @@ input:focus, textarea:focus {
 }
 .top-bar .top-left .list-inline-item:not(:last-child) {
   margin-right: unset !important;
+  margin-left: 5px;
 }
 .top-bar .top-left .f-social .fa{
   height: 30px;
   width: 30px;
   margin-top:10px;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 .top-bar .top-left .mny-box {
   position: relative;
@@ -9163,6 +9164,7 @@ input:focus, textarea:focus {
 ======================================= */
 .contact-area {
   padding-bottom: 50px;
+
 }
 
 .contact-area #map {
@@ -9231,42 +9233,6 @@ input:focus, textarea:focus {
   color: #969696;
 }
 
-.contact-area .social-link ul li a i {
-  font-size: 15px;
-  color: #fff;
-  width: 38px;
-  height: 38px;
-  text-align: center;
-  padding-top: 12px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.contact-area .social-link ul li a i:hover {
-  background: #f7911d !important;
-}
-
-.contact-area .social-link ul li:nth-child(1) a i {
-  background: #3b5998;
-}
-
-.contact-area .social-link ul li:nth-child(2) a i {
-  background: #1da1f2;
-}
-
-.contact-area .social-link ul li:nth-child(3) a i {
-  background: #0077b5;
-}
-
-.contact-area .social-link ul li:nth-child(4) a i {
-  background: #ff0000;
-}
-
-.contact-area .social-link ul li:nth-child(5) a i {
-  background: #bd081c;
-}
 
 .contact-area .contact-form h4 {
   color: #222222;
