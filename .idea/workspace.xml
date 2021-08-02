@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -21,24 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-home-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-home-two.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-single-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-shopping-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-compare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-terms-condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-terms-condition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-track-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/15-track-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-blog-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/16-blog-one.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17-blog-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/17-blog-two.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18-blog-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/18-blog-three.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/19-blog-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/20-contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -100,7 +86,10 @@
       <workItem from="1627458977153" duration="48000" />
       <workItem from="1627459093203" duration="636000" />
       <workItem from="1627461513793" duration="12311000" />
-      <workItem from="1627531739627" duration="18589000" />
+      <workItem from="1627531739627" duration="19611000" />
+      <workItem from="1627793327410" duration="4676000" />
+      <workItem from="1627876098879" duration="3698000" />
+      <workItem from="1627880766707" duration="3614000" />
     </task>
     <servers />
   </component>
@@ -121,11 +110,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-3100" y="275" key="FileChooserDialogImpl" timestamp="1626349832805">
-      <screen x="-3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-3100" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040/-3840.0.1920.1040@-3840.0.1920.1040" timestamp="1626349832805" />
   </component>
 </project>
