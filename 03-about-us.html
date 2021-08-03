@@ -31,6 +31,37 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/assets/responsive.css">
 
+    <style>
+        @media (min-width: 1440px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: 1500px;
+            }
+
+        }
+
+        @media (min-width: 1200px){
+            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
+                margin-top: 30px;
+            }
+
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: unset;
+            }
+        }
+
+        .menu-area {
+            padding-bottom: unset !important;
+        }
+
+        @media only screen and (max-width: 767px){
+            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
+                margin-top: 118px;
+            }
+        }
+
+
+    </style>
+
     </head>
     <body>
 
@@ -716,7 +747,7 @@
                             <a href="#"><img src="images/logo.png" alt=""></a>
                             <a href="#"><span>Sign In</span></a>
                             <ul class="list-unstyled">
-                                <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
+                                <li class="list-inline-item"> <a href="index.html"> Home </a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="list-unstyled">
                                         <li><a href="03-about-us.html">About Us</a></li>
