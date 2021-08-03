@@ -33,6 +33,18 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/assets/responsive.css">
 
+    <style>
+        @media (min-width: 1440px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: 1500px;
+            }
+        }
+
+        .menu-area {
+            padding-bottom: unset !important;
+        }
+    </style>
+
     </head>
     <body>
 
@@ -784,14 +796,15 @@
         <section class="login">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
                         <div class="n-customer">
                             <h5>New Customer</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem est eum earum eius dolores, alias modi aut officia quo perferendis id aspernatur neque provident quas, quidem libero veritatis voluptatum illum!</p>
                             <a href="#">Create an Account</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="r-customer">
                             <h5>Registered Customer</h5>
                             <p>If you have an account with us, please log in.</p>
@@ -817,6 +830,7 @@
                             </form>
                         </div>
                     </div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
         </section>

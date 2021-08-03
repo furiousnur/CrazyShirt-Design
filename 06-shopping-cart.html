@@ -32,6 +32,18 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/assets/responsive.css">
 
+    <style>
+        @media (min-width: 1440px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: 1500px;
+            }
+        }
+
+        .menu-area {
+            padding-bottom: unset !important;
+        }
+    </style>
+
     </head>
     <body>
 
@@ -783,7 +795,8 @@
         <section class="shopping-cart">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
                         <div class="cart-table table-responsive">
                             <table class="table">
                                 <thead>
@@ -866,47 +879,22 @@
                             </table>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="shipping">
-                            <h6>Calculate Shipping and Tax</h6>
-                            <p>Enter your destination to get shipping estimate</p>
-                            <form action="#">
-                                <div class="country-box">
-                                    <select class="country">
-                                        <option>Select Country</option>
-                                        <option>United State</option>
-                                        <option>United Kingdom</option>
-                                        <option>Germany</option>
-                                        <option>Australia</option>
-                                    </select>
-                                </div>
-                                <div class="state-box">
-                                    <select class="state">
-                                        <option>State/Province</option>
-                                        <option>State 1</option>
-                                        <option>State 2</option>
-                                        <option>State 3</option>
-                                        <option>State 4</option>
-                                    </select>
-                                </div>
-                                <div class="post-box">
-                                    <input type="text" name="zip" value="" placeholder="Zip/Postal Code">
-                                    <button type="button">Get Estimate</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
                         <div class="coupon">
                             <h6>Discount Coupon</h6>
                             <p>Enter your coupon code if you have one</p>
                             <form action="#">
                                 <input type="text" name="zip" value="" placeholder="Your Coupon">
+                                <input type="text" name="zip" value="" placeholder="Your Tax">
                                 <button type="button">Apply Code</button>
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="crt-sumry">
                             <h5>Cart Summery</h5>
                             <ul class="list-unstyled">
@@ -920,6 +908,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
         </section>

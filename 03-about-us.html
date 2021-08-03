@@ -88,18 +88,22 @@
                 </div>
                 <div class="col-lg-6 col-md-7 padding-fix">
                     <form action="#" class="search-bar d-flex">
-                        <input type="text" name="search-bar" placeholder="I'm looking for...">
+                        <label>
+                            <input type="text" name="search-bar" placeholder="I'm looking for...">
+                        </label>
                         <div class="search-cat">
-                            <select class="form-control scat-id">
-                                <option>All Categories</option>
-                                <option>Category One</option>
-                                <option>Category Two</option>
-                                <option>Category Three</option>
-                                <option>Category Four</option>
-                                <option>Category Five</option>
-                                <option>Category Six</option>
-                                <option>Category Seven</option>
-                            </select>
+                            <label>
+                                <select class="form-control scat-id">
+                                    <option>All Categories</option>
+                                    <option>Category One</option>
+                                    <option>Category Two</option>
+                                    <option>Category Three</option>
+                                    <option>Category Four</option>
+                                    <option>Category Five</option>
+                                    <option>Category Six</option>
+                                    <option>Category Seven</option>
+                                </select>
+                            </label>
                         </div>
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
@@ -182,7 +186,6 @@
                     <div class="main-menu">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
-                            </li>
                             <li class="list-inline-item mega-menu"><a>MEGA MENU <i class="fa fa-angle-down"></i></a>
                                 <div class="mega-box">
                                     <div class="row">
@@ -326,7 +329,9 @@
                     <div class="carts-area d-flex">
                         <div class="src-box">
                             <form action="#">
-                                <input name="search" placeholder="Search Here" type="text">
+                                <label>
+                                    <input name="search" placeholder="Search Here" type="text">
+                                </label>
                                 <button name="button" type="button"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
@@ -711,12 +716,7 @@
                             <a href="#"><img src="images/logo.png" alt=""></a>
                             <a href="#"><span>Sign In</span></a>
                             <ul class="list-unstyled">
-                                <li><a href="#">Home</a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="index.html">Home Style 1</a></li>
-                                        <li><a href="02-home-two.html">Home Style 2</a></li>
-                                    </ul>
-                                </li>
+                                <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="list-unstyled">
                                         <li><a href="03-about-us.html">About Us</a></li>
@@ -984,8 +984,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Copyright &copy; 2021 All rights reserved | Delos Online Limited.</a>
-                    </p>
+                    <p>Copyright &copy; 2021 All rights reserved | Delos Online Limited.</p>
                 </div>
                 <div class="col-md-6 text-right">
                     <img alt="" class="img-fluid" src="images/payment.png">
