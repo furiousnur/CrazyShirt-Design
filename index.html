@@ -205,8 +205,40 @@
             opacity: 1;
             bottom: 8px;
         }
-        @media screen and (max-width:1200px){
-            .product-grid{ margin: 0 0 30px; }
+
+        @media (min-width: 1440px){
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: 1500px;
+            }
+
+        }
+
+        @media (min-width: 1200px){
+            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
+                margin-top: 30px;
+            }
+
+            .container, .container-lg, .container-md, .container-sm, .container-xl {
+                max-width: unset;
+            }
+
+            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
+                margin-top: unset;
+            }
+        }
+
+        .menu-area {
+            padding-bottom: unset !important;
+        }
+
+        @media only screen and (max-width: 767px){
+            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
+                margin-top: 118px;
+            }
+        }
+
+        .slider-mt{
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -225,7 +257,8 @@
 <section class="top-bar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 col-md-6">
                 <div class="top-left d-flex">
                     <div class="lang-box">
                         <span><img alt="" src="images/fl-eng.png">English<i class="fa fa-angle-down"></i></span>
@@ -234,6 +267,7 @@
                             <li><img alt="" src="images/fl-fra.png">বাংলা</li>
                         </ul>
                     </div>
+                    <br>
                     <div class="f-social">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -245,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-5 col-md-6">
                 <div class="top-right text-right">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"><a href="#"><img alt="" src="images/user.png">My Account</a></li>
@@ -255,6 +289,7 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-lg-1"></div>
         </div>
     </div>
 </section>
@@ -264,18 +299,20 @@
 <section class="logo-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
                 <div class="logo">
                     <a href="#"><img alt="" style="margin-top: -10px !important;" src="images/logo/logo.png"></a>
                 </div>
             </div>
+
             <div class="col-md-5 padding-fix">
                 <form action="#" class="search-bar">
                     <input name="search-bar" placeholder="I'm looking for..." type="text">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="carts-area d-flex">
                     <div class="call-box d-flex">
                         <div class="call-ico">
@@ -294,6 +331,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -302,7 +340,7 @@
 <!-- Cart Body -->
 <div class="cart-body">
     <div class="close-btn">
-        <button class="close-cart"><img alt="" src="images/close.png">Close</button>
+        <button class="close-cart"><img src="images/close.png" alt="">Close</button>
     </div>
     <div class="crt-bd-box">
         <div class="cart-heading text-center">
@@ -311,7 +349,7 @@
         <div class="cart-content">
             <div class="content-item d-flex justify-content-between">
                 <div class="cart-img">
-                    <a href="#"><img alt="" src="images/cart1.png"></a>
+                    <a href="#"><img src="images/cart1.png" alt=""></a>
                 </div>
                 <div class="cart-disc">
                     <p><a href="#">SMART LED TV</a></p>
@@ -323,7 +361,7 @@
             </div>
             <div class="content-item d-flex justify-content-between">
                 <div class="cart-img">
-                    <a href="#"><img alt="" src="images/cart2.png"></a>
+                    <a href="#"><img src="images/cart2.png" alt=""></a>
                 </div>
                 <div class="cart-disc">
                     <p><a href="#">SMART LED TV</a></p>
@@ -468,7 +506,6 @@
                         </li>
                         <li class="list-inline-item"><a>PAGES <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown list-unstyled">
-                                <li><a href="03-about-us.html">About Us</a></li>
                                 <li><a href="04-category.html">Category</a></li>
                                 <li><a href="05-single-product.html">Single Product</a></li>
                                 <li><a href="06-shopping-cart.html">Shopping Cart</a></li>
@@ -483,9 +520,9 @@
                                 <li><a href="14-404.html">404</a></li>
                             </ul>
                         </li>
-                        <li class="list-inline-item"><a href="18-blog-three.html">BLOG </a></li>
-
-                        <li class="list-inline-item"><a href="20-contact.html">CONTACT</a></li>
+                        <<li class="list-inline-item"><a href="18-blog-three.html">Blog</a></li>
+                        <li class="list-inline-item"><a href="03-about-us.html">About Us</a></li>
+                        <li class="list-inline-item"><a href="20-contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -520,11 +557,11 @@
 <section class="menu-area">
     <div class="container primary-bg-color">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
-
                         <li class="list-inline-item mega-menu"><a>MEGA MENU <i class="fa fa-angle-down"></i></a>
                             <div class="mega-box">
                                 <div class="row">
@@ -637,6 +674,7 @@
                         </li>
                         <li class="list-inline-item"><a>PAGES <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown list-unstyled">
+                                <li><a href="03-about-us.html">About Us</a></li>
                                 <li><a href="04-category.html">Category</a></li>
                                 <li><a href="05-single-product.html">Single Product</a></li>
                                 <li><a href="06-shopping-cart.html">Shopping Cart</a></li>
@@ -651,14 +689,14 @@
                                 <li><a href="14-404.html">404</a></li>
                             </ul>
                         </li>
-                        <li class="list-inline-item"><a href="18-blog-three.html">BLOG</a></li>
-
+                        <li class="list-inline-item"><a href="18-blog-three.html">Blog</a></li>
                         <li class="list-inline-item"><a href="03-about-us.html">About Us</a></li>
-                        <li class="list-inline-item"><a href="20-contact.html">CONTACT</a></li>
+                        <li class="list-inline-item"><a href="20-contact.html">Contact</a></li>
                         <li class="list-inline-item trac-btn"><a href="#">Track Your Order</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -693,6 +731,7 @@
                                 </ul>
                             </li>
                             <li><a href="18-blog-three.html">Blog</a></li>
+                            <li><a href="03-about-us.html">About Us</a></li>
                             <li><a href="20-contact.html">Contact</a></li>
                         </ul>
                     </nav>
@@ -707,7 +746,7 @@
 <section class="slider-area">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-0">
+            <div class="col-lg-3 col-md-0 slider-mt">
                 <div class="menu-widget">
                     <p class="primary-bg-color"><i class="fa fa-bars"></i>All Categories</p>
                     <ul class="list-unstyled">
@@ -909,7 +948,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-12 padding-fix-l20">
+            <div class="col-lg-9 col-md-12 padding-fix-l20 slider-mt">
                 <div class="owl-carousel owl-slider">
                     <div class="slider-item slider-item1">
                         <img alt="" class="img1 wow fadeInRight effect" data-wow-delay="0s" data-wow-duration="1s"
