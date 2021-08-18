@@ -23,12 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-all-products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-single-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-wishlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-compare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-terms-condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-terms-condition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18-blog-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/18-blog-three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/20-contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +48,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/12-terms-condition.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1vL62RiYE2GJ8Ev48Itk3JGFR5j" />
@@ -61,7 +67,7 @@
     <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
     <property name="com.google.cloudcode.ide_session_index" value="20210728_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Platinum-Ecommerce" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -100,7 +106,12 @@
       <workItem from="1628394405824" duration="19303000" />
       <workItem from="1628441963519" duration="2352000" />
       <workItem from="1628480383273" duration="2439000" />
-      <workItem from="1628485387363" duration="15421000" />
+      <workItem from="1628485387363" duration="16146000" />
+      <workItem from="1628532146584" duration="1463000" />
+      <workItem from="1628567236043" duration="5804000" />
+      <workItem from="1628655223006" duration="2361000" />
+      <workItem from="1628664374397" duration="8000" />
+      <workItem from="1629266388892" duration="3665000" />
     </task>
     <servers />
   </component>
