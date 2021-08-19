@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/allproduct/GK-BlackBrickB21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/GK-BlackBrickB22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/GK-BlackBrickB23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/GK-BlackBrickB24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/GK-BlackBrickB25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/TMBlue17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/TMBurgandy18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/TMRed19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/allproduct/TMYellow20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/slider-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/top-banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/top-banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner/top-banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/appliance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-3-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-1106X368px-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner/AllaCrazyShirts-Web-Slider-1106X368px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f-banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/f-banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/girl-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/girl-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ipn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/m-banner-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-b-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-b-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-b-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-b-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mega-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pbank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/s-banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/s-banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sb-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sb-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sb-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sbar-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sm-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sm-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/12-terms-condition.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1vL62RiYE2GJ8Ev48Itk3JGFR5j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210728_0000" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\laragon\www\all crazy shirt\images\logo" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="" />
+      <created>1626328814542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626328814542</updated>
+      <workItem from="1626328815631" duration="306000" />
+      <workItem from="1626329580506" duration="12041000" />
+      <workItem from="1626349835641" duration="717000" />
+      <workItem from="1626581215967" duration="33000" />
+      <workItem from="1627453452862" duration="1319000" />
+      <workItem from="1627458977153" duration="48000" />
+      <workItem from="1627459093203" duration="636000" />
+      <workItem from="1627461513793" duration="12311000" />
+      <workItem from="1627531739627" duration="19611000" />
+      <workItem from="1627793327410" duration="4676000" />
+      <workItem from="1627876098879" duration="3698000" />
+      <workItem from="1627880766707" duration="3614000" />
+      <workItem from="1627962066211" duration="19578000" />
+      <workItem from="1628048413700" duration="14415000" />
+      <workItem from="1628097018982" duration="753000" />
+      <workItem from="1628153491537" duration="7875000" />
+      <workItem from="1628327584137" duration="1314000" />
+      <workItem from="1628394405824" duration="19303000" />
+      <workItem from="1628441963519" duration="2352000" />
+      <workItem from="1628480383273" duration="2439000" />
+      <workItem from="1628485387363" duration="16146000" />
+      <workItem from="1628532146584" duration="1463000" />
+      <workItem from="1628567236043" duration="5804000" />
+      <workItem from="1628655223006" duration="2361000" />
+      <workItem from="1628664374397" duration="8000" />
+      <workItem from="1629266388892" duration="13626000" />
+      <workItem from="1629346839278" duration="7774000" />
+      <workItem from="1629363014712" duration="9924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
