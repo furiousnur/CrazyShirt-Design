@@ -23,17 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/allproduct/WHCornwall16.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-all-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-all-products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +101,8 @@
       <workItem from="1628567236043" duration="5804000" />
       <workItem from="1628655223006" duration="2361000" />
       <workItem from="1628664374397" duration="8000" />
-      <workItem from="1629266388892" duration="13395000" />
+      <workItem from="1629266388892" duration="13626000" />
+      <workItem from="1629346839278" duration="226000" />
     </task>
     <servers />
   </component>
