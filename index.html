@@ -279,11 +279,40 @@
             }
         }
 
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 768px) {
             .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
                 margin-top: 118px;
             }
+            p, li, a, button {
+                font-size: 10px;
+            }
+            .top-bar .top-left .f-social .fa {
+                height: 30px;
+                width: 25px;
+                margin-top: 12px;
+                margin-left: 1px;
+            }
+
         }
+
+        @media only screen and (max-width: 1199px){
+            .sticky-menu .main-menu {
+                padding-left: 0px;
+            }
+
+            .sticky-menu .carts-area {
+                margin-left: -42px;
+            }
+
+            .logo-mr{
+                margin-right: 25px;
+            }
+        }
+
+        .sticky-menu {
+            height: 90px;
+        }
+
     </style>
 
 </head>
@@ -302,7 +331,7 @@
 <section class="top-bar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-4">
                 <div class="top-left d-flex">
                     <div class="lang-box">
                         <span><img alt="" src="images/fl-eng.png">English<i class="fa fa-angle-down"></i></span>
@@ -312,25 +341,23 @@
                         </ul>
                     </div>
                     <br>
-                    <div class="f-social">
-                        <ul class="list-unstyled list-inline">
+                    <div class="f-social mt-1">
+                        <ul class="list-unstyled list-inline ">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-8">
                 <div class="top-right text-right">
                     <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/user.png">My Account</a></li>
-                        <li class="list-inline-item"><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a></li>
-                        <li class="list-inline-item"><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a></li>
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/login.png">Login</a></li>
-                        <li class="list-inline-item"><a href="09-register.html"><img alt="" src="images/user.png">Register</a></li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/user.png">My Account</a></li>
+                        <li class="list-inline-item "><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a></li>
+                        <li class="list-inline-item "><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a></li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/login.png">Login</a></li>
+                        <li class="list-inline-item "><a href="09-register.html"><img alt="" src="images/user.png">Register</a></li>
                     </ul>
                 </div>
             </div>
@@ -372,7 +399,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="carts-area d-flex">
-                            <div class="call-box d-flex">
+                            <div class="call-box d-flex logo-mr">
                                 <div class="call-ico">
                                     <img alt="" src="images/call.png">
                                 </div>
@@ -443,14 +470,14 @@
 
 <!-- Sticky Menu -->
 <section class="sticky-menu primary-bg-color">
-    <div class="container">
+    <div class="container mt-10">
         <div class="row">
-            <div class="col-lg-2 col-md-3">
+            <div class="col-md-2">
                 <div class="sticky-logo">
                     <a href="index.html"><img alt="" class="img-fluid" src="images/logo/logo.png" style="margin-top: 5px; height: 68px;"></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-7">
+            <div class="col-md-7">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
@@ -571,19 +598,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-2">
+            <div class="col-md-3">
                 <div class="carts-area d-flex">
                     <div class="src-box">
                         <form action="#">
                             <input name="search" placeholder="Search Here" type="text">
                             <button name="button" type="button"><i class="fa fa-search"></i></button>
                         </form>
-                    </div>
-                    <div class="wsh-box ml-auto">
-                        <a data-placement="top" data-toggle="tooltip" href="#" title="Wishlist">
-                            <img alt="favorite" src="images/heart.png">
-                            <span class="secondary-bg-color">0</span>
-                        </a>
                     </div>
                     <div class="cart-box ml-4">
                         <a class="cart-btn" data-placement="top" data-toggle="tooltip" href="#" title="Shopping Cart">
@@ -794,7 +815,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
-                    <div class="col-lg-3 col-md-0 slider-mt">
+                    <div class="col-md-4 slider-mt">
                         <div class="menu-widget">
                             <p><i class="fa fa-bars"></i>Shop by Category</p>
                             <ul class="list-unstyled">
@@ -993,7 +1014,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-12 padding-fix-l20 slider-mt">
+                    <div class="col-md-8 padding-fix-l20 slider-mt">
                         <div class="owl-carousel owl-slider">
                             <div class="slider-item slider-item1">
                                 <img alt="" class="img1 wow fadeInRight effect" data-wow-delay="0s"
@@ -1028,14 +1049,14 @@
 </section>
 <!-- End Slider Area -->
 
-<!-- Product Area-->
+<!--Feature Product Area-->
 <section class="product-area">
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="bt-deal">
@@ -1171,7 +1192,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-8">
+                    <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-12 padding-fix-l20">
                                 <div class="ftr-product">
@@ -1210,7 +1231,6 @@
                                                     </div>
                                                     <div class="tab-img">
                                                         <img alt="" class="main-img img-fluid" src="images/allproduct/GK-BlackBrickB21.jpg">
-                                                        <img alt="" class="sec-img img-fluid" src="images/allproduct/GK-BlackBrickB22.jpg">
                                                         <div class="layer-box">
                                                             <a class="it-comp" data-placement="left" data-toggle="tooltip"
                                                                href="#" title="Compare"><img
@@ -1256,7 +1276,6 @@
                                                     </div>
                                                     <div class="tab-img">
                                                         <img alt="" class="main-img img-fluid" src="images/allproduct/GK-BlackBrickB24.jpg">
-                                                        <img alt="" class="sec-img img-fluid" src="images/allproduct/GK-BlackBrickB23.jpg">
                                                         <span class="sale">Sale</span>
                                                         <div class="layer-box">
                                                             <a class="it-comp" data-placement="left" data-toggle="tooltip"
@@ -1303,7 +1322,6 @@
                                                     </div>
                                                     <div class="tab-img">
                                                         <img alt="" class="main-img img-fluid" src="images/allproduct/GK-BlackBrickB25.jpg">
-                                                        <img alt="" class="sec-img img-fluid" src="images/allproduct/TMRed19.jpg">
                                                         <div class="layer-box">
                                                             <a class="it-comp" data-placement="left" data-toggle="tooltip"
                                                                href="#" title="Compare"><img
@@ -1349,7 +1367,6 @@
                                                     </div>
                                                     <div class="tab-img">
                                                         <img alt="" class="main-img img-fluid" src="images/allproduct/WHCornwall16.jpg">
-                                                        <img alt="" class="sec-img img-fluid" src="images/allproduct/WHCornwall01.jpg">
                                                         <div class="layer-box">
                                                             <a class="it-comp" data-placement="left" data-toggle="tooltip"
                                                                href="#" title="Compare"><img
@@ -1968,8 +1985,9 @@
         </div>
     </div>
 </section>
-<!-- End Product Area -->
+<!-- End Feature Product Area -->
 
+<!-- middle banner Area-->
 <section class="category">
     <div class="container">
         <div class="row">
@@ -1993,7 +2011,9 @@
         </div>
     </div>
 </section>
+<!---End middle banner Area -->
 
+<!--- Product Area -->
 <section class="category">
     <div class="container">
         <div class="row">
@@ -2001,7 +2021,7 @@
             <div class="col-md-10 padding-fix-l20" style="border: 1px solid #dcd9d9; padding: 12px;">
                 <div class="tab-box d-flex justify-content-between">
                     <p style="color: #444444 !important; text-transform: uppercase; font-weight: 600 !important; font-size: 22px !important;">
-                        Feature Product
+                        New Product
                     </p>
                 </div>
                 <hr>
@@ -2012,7 +2032,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="grid" role="tabpanel">
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2052,7 +2072,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2093,7 +2113,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2133,7 +2153,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2175,7 +2195,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2215,7 +2235,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2256,7 +2276,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2296,7 +2316,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2339,7 +2359,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2379,7 +2399,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt="" class="main-img img-fluid"
@@ -2419,7 +2439,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2459,7 +2479,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt="" class="main-img img-fluid"
@@ -2501,7 +2521,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2541,7 +2561,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2581,7 +2601,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2621,7 +2641,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2663,7 +2683,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2703,7 +2723,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2743,7 +2763,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2783,7 +2803,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3">
+                                        <div class="col-md-3">
                                             <div class="tab-item">
                                                 <div class="tab-img">
                                                     <img alt=""
@@ -2827,7 +2847,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="list" role="tabpanel">
                                     <div class="row">
-                                        <div class="col-lg-12 col-md-6">
+                                        <div class="col-md-6">
                                             <div class="tab-item2">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-12">
@@ -2889,7 +2909,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-md-6">
+                                        <div class="col-md-6">
                                             <div class="tab-item2">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-12">
@@ -2950,7 +2970,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-md-6">
+                                        <div class="col-md-6">
                                             <div class="tab-item2">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-12">
@@ -3012,7 +3032,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-md-6">
+                                        <div class="col-md-6">
                                             <div class="tab-item2">
                                                 <div class="row">
                                                     <div class="col-lg-4 col-md-12">
@@ -3097,6 +3117,9 @@
         </div>
     </div>
 </section>
+<!---End Product Area -->
+
+<!-- Brand area -->
 <div class="row">
     <div class="col-md-12">
         <div class="tp-bnd owl-carousel">
@@ -3124,6 +3147,7 @@
         </div>
     </div>
 </div>
+<!--End Brand area -->
 
 <!-- Footer Area -->
 <section class="footer-top">
