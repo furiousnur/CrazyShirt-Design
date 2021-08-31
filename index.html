@@ -238,14 +238,17 @@
             padding-bottom: unset !important;
         }
 
-        @media only screen and  (max-width: 425px)
+        @media only screen and  (max-width: 426px)
         {
             .slider-area .owl-slider .slider-item{
-                height: 150px!important;
+                height: 150px !important;
             }
             .mean-container .mean-bar .meanmenu-reveal {
                 left: 30px !important;
                 top: 15px !important;
+            }
+            .slider-area {
+                margin-bottom: unset;
             }
         }
 
@@ -255,25 +258,48 @@
                 max-width: 835px;
             }
         }
+        @media only screen and (max-width: 767px)
+        {   .slider-area .owl-slider .slider-item {
+            height:210px ;
+        }
+            .slider-area .owl-slider .slider-item1 img {
+                max-width: 835px;
+                max-height: 210px;
+            }
+            .slider-area .owl-slider .slider-item2 img {
+                max-width: 835px;
+                max-height: 210px;
+            }
+            .slider-area .owl-slider .slider-item3 img {
+                max-width: 835px;
+                max-height: 210px;
+            }
+
+            .mobile-block {
+                display: block !important;
+            }
+            .mobile-none {
+                display: none !important;
+            }
+            .slider-item-img{
+                height: 195px;
+            }
+        }
 
         @media only screen and (min-width: 1024px)  and (max-width: 1440px) {
             .slider-area .owl-slider .slider-item {
-                height:280px ;
+                height:320px ;
             }
+            .category {
+                 padding: 15px 0 !important;
+            }
+
         }
 
         @media (min-width: 1440px) {
             .container, .container-lg, .container-md, .container-sm, .container-xl {
                 max-width: 1500px;
             }
-
-            /*.sticky-menu {
-                top: 20px;
-            }
-
-            .sticky-menu .carts-area {
-                margin-right: 81px;
-            }*/
 
         }
 
@@ -291,11 +317,8 @@
             }
         }
 
-        @media only screen and (max-width: 768px) {
-            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
-                margin-top: 118px;
-            }
-            p, li, a, button {
+        @media only screen and (min-width: 768px)  and (max-width: 1023px) {
+            .p, li, a, button {
                 font-size: 10px;
             }
             .top-bar .top-left .f-social .fa {
@@ -303,6 +326,9 @@
                 width: 25px;
                 margin-top: 12px;
                 margin-left: 1px;
+            }
+            .menu-area .main-menu ul li.mega-menu .mega-box .m-slider, .sticky-menu .main-menu ul li.mega-menu .mega-box .m-slider, .menu-area2 .main-menu ul li.mega-menu .mega-box .m-slider, .sticky-menu .carts-area .src-box, .slider-area .menu-widget, .menu-area2 .sidemenu, .category .product-box .tab-content .tab-pane .tab-item2 .item-content p {
+                display: unset !important;
             }
         }
 
@@ -339,7 +365,7 @@
 <!-- End Preloader -->
 
 <!-- Top Bar -->
-<section class="top-bar">
+<section class="top-bar mobile-block">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -378,16 +404,15 @@
 <!-- End Top Bar -->
 
 <!-- Logo Area -->
-<section class="logo-area2">
+<section class="logo-area2 mobile-none">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
+        <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
                             <a href="#"><img alt="" src="images/logo/logo.png"
-                                             style="margin-top: -10px !important;"></a>
+                                             style="margin-top: -15px !important;"></a>
                         </div>
                     </div>
                     <div class="col-md-6 padding-fix">
@@ -429,7 +454,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -480,7 +504,7 @@
 <!-- End Cart Body -->
 
 <!-- Sticky Menu -->
-<section class="sticky-menu primary-bg-color">
+<section class="sticky-menu primary-bg-color mobile-none">
     <div class="container mt-10">
         <div class="row">
             <div class="col-md-2">
@@ -631,10 +655,9 @@
 <!-- End Sticky Menu -->
 
 <!-- Menu Area -->
-<section class="menu-area">
+<section class="menu-area mobile-none">
     <div class="container primary-bg-color">
-        <div class="row">
-            <div class="col-md-1"></div>
+        <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
@@ -757,14 +780,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
 <!-- End Menu Area -->
 
 <!-- Mobile Menu -->
-<section class="mobile-menu-area">
+<section class="mobile-menu-area mobile-block">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -820,13 +842,12 @@
 <!-- End Mobile Menu -->
 
  <!-- Slider Area -->
-<section class="slider-area">
+<section class="slider-area ">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
+        <div class="row justify-content-center">
+            <div class="col-md-10 mobile-block">
                 <div class="row">
-                    <div class="col-md-4 slider-mt">
+                    <div class="col-md-4 slider-mt slider-item-img">
                         <div class="menu-widget">
                             <p><i class="fa fa-bars"></i>Shop by Category</p>
                             <ul class="list-unstyled">
@@ -1017,15 +1038,16 @@
                                     </div>
                                 </li>
                                 <li><a href="#"><img alt="" src="images/sm.png">Smartphone & Tablet</a></li>
-                                <li><a href="#"><img alt="" src="images/com.png">Computer & Office</a></li>
-                                <li><a href="#"><img alt="" src="images/tv.png">Home Applience</a></li>
+                                <li><a href="#"><img alt="" src="images/shoe.png">Home goods</a></li>
+                                <li><a href="#"><img alt="" src="images/kid.png">Electronics</a></li>
+                                <li><a href="#"><img alt="" src="images/sm.png">Auto Mobile</a></li>
                                 <li><a href="#"><img alt="" src="images/shoe.png">Leather & Shoes</a></li>
                                 <li><a href="#"><img alt="" src="images/kid.png">Kids & Babies</a></li>
                                 <li><a href="#"><img alt="" src="images/sport.png">Sports & Outdoors</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-8 padding-fix-l20 slider-mt">
+                    <div class="col-md-8 padding-fix-l20 slider-mt slider-item-img">
                         <div class="owl-carousel owl-slider">
                             <div class="slider-item slider-item1">
                                 <img alt="" class="img1 wow fadeInRight effect" data-wow-delay="0s"
@@ -1054,7 +1076,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -1063,10 +1084,9 @@
 <!--Feature Product Area-->
 <section class="product-area">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
+        <div class="row justify-content-center">
             <div class="col-md-10">
-                <div class="row">
+                <div class="row ">
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-12">
@@ -1449,8 +1469,7 @@
                                                                 </li>
                                                                 <li class="list-inline-item"><i class="fa fa-star"></i>
                                                                 </li>
-                                                                <li class="list-inline-item"><i
-                                                                        class="fa fa-star-o"></i></li>
+                                                                <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
                                                             </ul>
                                                             <ul class="list-unstyled list-inline price">
                                                                 <li class="list-inline-item">$120.00</li>
@@ -1987,12 +2006,10 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -2001,8 +2018,7 @@
 <!-- middle banner Area-->
 <section class="category">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
+        <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-6">
@@ -2016,9 +2032,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -2027,8 +2041,7 @@
 <!--- Product Area -->
 <section class="category">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1"></div>
+        <div class="row justify-content-center">
             <div class="col-md-10 padding-fix-l20" style="border: 1px solid #dcd9d9; padding: 12px;">
                 <div class="tab-box d-flex justify-content-between">
                     <p style="color: #444444 !important; text-transform: uppercase; font-weight: 600 !important; font-size: 22px !important;">
@@ -3124,7 +3137,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
@@ -3163,8 +3175,7 @@
 <!-- Footer Area -->
 <section class="footer-top">
     <div class="container">
-        <div class="row">
-            <div class="col-md-1 "></div>
+        <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3">
@@ -3190,9 +3201,7 @@
                                 <ul class="list-unstyled list-inline">
                                     <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -3240,9 +3249,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 </section>
