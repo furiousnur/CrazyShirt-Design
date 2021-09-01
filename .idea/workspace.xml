@@ -24,22 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-all-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-all-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-single-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-shopping-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10-wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-wishlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11-compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-compare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-terms-condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-terms-condition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15-track-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/15-track-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18-blog-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/18-blog-three.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/20-contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +130,7 @@
       <workItem from="1630298013559" duration="11335000" />
       <workItem from="1630382836094" duration="14713000" />
       <workItem from="1630469513290" duration="181000" />
-      <workItem from="1630469715292" duration="20991000" />
+      <workItem from="1630469715292" duration="21825000" />
     </task>
     <servers />
   </component>
