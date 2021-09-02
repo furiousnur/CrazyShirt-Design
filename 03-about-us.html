@@ -29,39 +29,8 @@
     <!-- Custom Style -->
     <link href="css/assets/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/media-query.css" rel="stylesheet">
     <link href="css/assets/responsive.css" rel="stylesheet">
-
-    <style>
-        @media (min-width: 1440px) {
-            .container, .container-lg, .container-md, .container-sm, .container-xl {
-                max-width: 1500px;
-            }
-
-        }
-
-        @media (min-width: 1200px) {
-            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
-                margin-top: 30px;
-            }
-
-            .container, .container-lg, .container-md, .container-sm, .container-xl {
-                max-width: unset;
-            }
-        }
-
-        .menu-area {
-            padding-bottom: unset !important;
-        }
-
-        @media only screen and (max-width: 767px) {
-            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
-                margin-top: 118px;
-            }
-        }
-
-
-    </style>
-
 </head>
 <body>
 
@@ -75,10 +44,10 @@
 <!-- End Preloader -->
 
 <!-- Top Bar -->
-<section class="top-bar">
+<section class="top-bar mobile-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="top-left d-flex">
                     <div class="lang-box">
                         <span><img alt="" src="images/fl-eng.png">English<i class="fa fa-angle-down"></i></span>
@@ -88,8 +57,8 @@
                         </ul>
                     </div>
                     <br>
-                    <div class="f-social">
-                        <ul class="list-unstyled list-inline">
+                    <div class="f-social mt-1">
+                        <ul class="list-unstyled list-inline ">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -97,14 +66,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="top-right text-right">
                     <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/user.png">My Account</a></li>
-                        <li class="list-inline-item"><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a></li>
-                        <li class="list-inline-item"><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a></li>
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/login.png">Login</a></li>
-                        <li class="list-inline-item"><a href="09-register.html"><img alt="" src="images/user.png">Register</a></li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/user.png">My Account</a></li>
+                        <li class="list-inline-item "><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a></li>
+                        <li class="list-inline-item "><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a></li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/login.png">Login</a></li>
+                        <li class="list-inline-item "><a href="09-register.html"><img alt="" src="images/user.png">Register</a></li>
                     </ul>
                 </div>
             </div>
@@ -114,15 +83,15 @@
 <!-- End Top Bar -->
 
 <!-- Logo Area -->
-<section class="logo-area2">
+<section class="logo-area2 mobile-none">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-10">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
                             <a href="#"><img alt="" src="images/logo/logo.png"
-                                             style="margin-top: -10px !important;"></a>
+                                             style="margin-top: -15px !important;"></a>
                         </div>
                     </div>
                     <div class="col-md-6 padding-fix">
@@ -145,7 +114,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="carts-area d-flex">
-                            <div class="call-box d-flex">
+                            <div class="call-box d-flex logo-mr">
                                 <div class="call-ico">
                                     <img alt="" src="images/call.png">
                                 </div>
@@ -214,15 +183,15 @@
 <!-- End Cart Body -->
 
 <!-- Sticky Menu -->
-<section class="sticky-menu primary-bg-color">
-    <div class="container">
+<section class="sticky-menu primary-bg-color mobile-none" >
+    <div class="container mt-10">
         <div class="row">
-            <div class="col-lg-2 col-md-3">
+            <div class="col-md-2 mobile-none">
                 <div class="sticky-logo">
-                    <a href="index.html"><img alt="" class="img-fluid" src="images/logo/logo.png" style="margin-top: 5px; height: 68px;"></a>
+                    <a href="index.html"><img alt="" class="img-fluid float-right" src="images/logo/logo.png" style="margin-top: 5px; height: 68px;"></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-7">
+            <div class="col-md-7">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
@@ -343,19 +312,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-2">
+            <div class="col-md-3">
                 <div class="carts-area d-flex">
                     <div class="src-box">
                         <form action="#">
                             <input name="search" placeholder="Search Here" type="text">
                             <button name="button" type="button"><i class="fa fa-search"></i></button>
                         </form>
-                    </div>
-                    <div class="wsh-box ml-auto">
-                        <a data-placement="top" data-toggle="tooltip" href="#" title="Wishlist">
-                            <img alt="favorite" src="images/heart.png">
-                            <span class="secondary-bg-color">0</span>
-                        </a>
                     </div>
                     <div class="cart-box ml-4">
                         <a class="cart-btn" data-placement="top" data-toggle="tooltip" href="#" title="Shopping Cart">
@@ -371,10 +334,10 @@
 <!-- End Sticky Menu -->
 
 <!-- Menu Area -->
-<section class="menu-area">
+<section class="menu-area mobile-none">
     <div class="container primary-bg-color">
         <div class="row justify-content-center">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-10">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"><a href="index.html"> HOME </a></li>
@@ -502,7 +465,7 @@
 <!-- End Menu Area -->
 
 <!-- Mobile Menu -->
-<section class="mobile-menu-area">
+<section class="mobile-menu-area mobile-block">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

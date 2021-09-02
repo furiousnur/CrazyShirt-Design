@@ -29,38 +29,8 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/assets/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
     <link rel="stylesheet" href="css/assets/responsive.css">
-
-    <style>
-        @media (min-width: 1440px){
-            .container, .container-lg, .container-md, .container-sm, .container-xl {
-                max-width: 1500px;
-            }
-
-        }
-
-        @media (min-width: 1200px){
-            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
-                margin-top: 30px;
-            }
-
-            .container, .container-lg, .container-md, .container-sm, .container-xl {
-                max-width: unset;
-            }
-        }
-
-        .menu-area {
-            padding-bottom: unset !important;
-        }
-
-        @media only screen and (max-width: 767px){
-            .slider-area .owl-slider, .slider-area2, .breadcrumb-area {
-                margin-top: 118px;
-            }
-        }
-
-    </style>
-
 </head>
 <body>
 
@@ -74,10 +44,10 @@
 <!-- End Preloader -->
 
 <!-- Top Bar -->
-<section class="top-bar">
+<section class="top-bar mobile-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="top-left d-flex">
                     <div class="lang-box">
                         <span><img alt="" src="images/fl-eng.png">English<i class="fa fa-angle-down"></i></span>
@@ -87,8 +57,8 @@
                         </ul>
                     </div>
                     <br>
-                    <div class="f-social">
-                        <ul class="list-unstyled list-inline">
+                    <div class="f-social mt-1">
+                        <ul class="list-unstyled list-inline ">
                             <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -96,14 +66,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <div class="top-right text-right">
                     <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/user.png">My Account</a></li>
-                        <li class="list-inline-item"><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a></li>
-                        <li class="list-inline-item"><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a></li>
-                        <li class="list-inline-item"><a href="#"><img alt="" src="images/login.png">Login</a></li>
-                        <li class="list-inline-item"><a href="09-register.html"><img alt="" src="images/user.png">Register</a></li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/user.png">My Account</a></li>
+                        <li class="list-inline-item "><a href="10-wishlist.html"><img alt="" src="images/wishlist.png">Wishlist</a>
+                        </li>
+                        <li class="list-inline-item "><a href="07-checkout.html"><img alt="" src="images/checkout.png">Checkout</a>
+                        </li>
+                        <li class="list-inline-item "><a href="#"><img alt="" src="images/login.png">Login</a></li>
+                        <li class="list-inline-item "><a href="09-register.html"><img alt="" src="images/user.png">Register</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -113,15 +86,15 @@
 <!-- End Top Bar -->
 
 <!-- Logo Area -->
-<section class="logo-area2">
+<section class="logo-area2 mobile-none">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-10">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
                             <a href="#"><img alt="" src="images/logo/logo.png"
-                                             style="margin-top: -10px !important;"></a>
+                                             style="margin-top: -15px !important;"></a>
                         </div>
                     </div>
                     <div class="col-md-6 padding-fix">
@@ -144,7 +117,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="carts-area d-flex">
-                            <div class="call-box d-flex">
+                            <div class="call-box d-flex logo-mr">
                                 <div class="call-ico">
                                     <img alt="" src="images/call.png">
                                 </div>
@@ -216,15 +189,16 @@
 <section class="sticky-menu primary-bg-color mobile-none">
     <div class="container mt-10">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 mobile-none">
                 <div class="sticky-logo">
-                    <a href="index.html"><img alt="" class="img-fluid" src="images/logo/logo.png" style="margin-top: 5px; height: 68px;"></a>
+                    <a href="index.html"><img alt="" class="img-fluid float-right" src="images/logo/logo.png"
+                                              style="margin-top: 5px; height: 68px;"></a>
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item"> <a href="index.html"> HOME </a></li>
+                        <li class="list-inline-item"><a href="index.html"> HOME </a></li>
                         <li class="list-inline-item mega-menu"><a>All Categories<i class="fa fa-angle-down"></i></a>
                             <div class="mega-box">
                                 <div class="row">
@@ -364,10 +338,10 @@
 <!-- End Sticky Menu -->
 
 <!-- Menu Area -->
-<section class="menu-area">
+<section class="menu-area mobile-none">
     <div class="container primary-bg-color">
         <div class="row justify-content-center">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-10">
                 <div class="main-menu">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item"><a href="index.html"> HOME </a></li>
@@ -495,7 +469,7 @@
 <!-- End Menu Area -->
 
 <!-- Mobile Menu -->
-<section class="mobile-menu-area">
+<section class="mobile-menu-area mobile-block">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -505,38 +479,40 @@
                         <a href="#"><span>Sign In</span></a>
                         <ul class="list-unstyled">
                             <li class="list-inline-item"><a href="index.html"> Home </a></li>
-                            <li><a href="#">All Categories</a> <ul class="list-unstyled">
-                                <li><a href=""><h6>Men</h6></a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Western Clothing</a></li>
-                                        <li><a href="#">Traditional Clothing</a></li>
-                                        <li><a href="#">Winter Clothing</a></li>
-                                        <li><a href="#">Summer Clothing</a></li>
-                                        <li><a href="#">Inner Wear</a></li>
-                                        <li><a href="#">Night Wear</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href=""><h6>Women</h6></a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Western Clothing</a></li>
-                                        <li><a href="#">Traditional Clothing</a></li>
-                                        <li><a href="#">Winter Clothing</a></li>
-                                        <li><a href="#">Summer Clothing</a></li>
-                                        <li><a href="#">Inner Wear</a></li>
-                                        <li><a href="#">Night Wear</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href=""><h6>Kid</h6></a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Western Clothing</a></li>
-                                        <li><a href="#">Traditional Clothing</a></li>
-                                        <li><a href="#">Winter Clothing</a></li>
-                                        <li><a href="#">Summer Clothing</a></li>
-                                        <li><a href="#">Inner Wear</a></li>
-                                        <li><a href="#">Night Wear</a></li>
-                                    </ul>
-                                </li>
-                            </ul></li>
+                            <li><a href="#">All Categories</a>
+                                <ul class="list-unstyled">
+                                    <li><a href=""><h6>Men</h6></a>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Western Clothing</a></li>
+                                            <li><a href="#">Traditional Clothing</a></li>
+                                            <li><a href="#">Winter Clothing</a></li>
+                                            <li><a href="#">Summer Clothing</a></li>
+                                            <li><a href="#">Inner Wear</a></li>
+                                            <li><a href="#">Night Wear</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href=""><h6>Women</h6></a>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Western Clothing</a></li>
+                                            <li><a href="#">Traditional Clothing</a></li>
+                                            <li><a href="#">Winter Clothing</a></li>
+                                            <li><a href="#">Summer Clothing</a></li>
+                                            <li><a href="#">Inner Wear</a></li>
+                                            <li><a href="#">Night Wear</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href=""><h6>Kid</h6></a>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Western Clothing</a></li>
+                                            <li><a href="#">Traditional Clothing</a></li>
+                                            <li><a href="#">Winter Clothing</a></li>
+                                            <li><a href="#">Summer Clothing</a></li>
+                                            <li><a href="#">Inner Wear</a></li>
+                                            <li><a href="#">Night Wear</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
                             <li><a href="02-all-products.html">All Products</a></li>
                             <li><a href="18-blog-three.html">Blog</a></li>
                             <li><a href="03-about-us.html">About Us</a></li>
