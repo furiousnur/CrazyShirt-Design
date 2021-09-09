@@ -23,23 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e122f67-cd3d-494c-8ba8-36f5f8eac622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home-page/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-all-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-all-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-single-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-single-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-shopping-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/11-compare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-terms-condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-terms-condition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/14-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-track-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/15-track-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18-blog-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/18-blog-three.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/20-contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +48,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/12-terms-condition.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/css/style.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/12-terms-condition.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1vL62RiYE2GJ8Ev48Itk3JGFR5j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -79,12 +65,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="app.teamhub.trackedBranches" value="-1056b3p/main" />
     <property name="com.google.cloudcode.ide_session_index" value="20210728_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -146,6 +134,8 @@
       <workItem from="1630469715292" duration="22307000" />
       <workItem from="1630555500189" duration="14317000" />
       <workItem from="1630814985425" duration="23173000" />
+      <workItem from="1630844622586" duration="533000" />
+      <workItem from="1631164474001" duration="13528000" />
     </task>
     <servers />
   </component>
