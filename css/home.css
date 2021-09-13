@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('images/home-page/background.jpg');
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1)), url('images/home-page/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -29,6 +29,12 @@ body{
 }
 
 .images{
-    width: 99%;
+    width: 100%;
     margin-bottom: 10px;
+}
+
+.images:hover {
+    transform: scale(1.05);
+    transition: all .5s;
+    /*transform-origin: bottom right 60px;*/
 }
