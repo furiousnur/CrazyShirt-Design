@@ -1,0 +1,159 @@
+
+.primary-bg-color {
+    background: #E90E8B !important;
+}
+.menu-area .main-menu ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.slider-area .menu-widget p {
+    font-size: 15px;
+    color: #fff;
+    background: #E90E8B;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer-top {
+    background: #E90E8B;
+    padding: 50px 0 40px;
+}
+.footer-top .f-cat ul li a, .footer-top .f-sup ul li a, .footer-top .f-link ul li a {
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.footer-top .f-contact .f-add p, .footer-top .f-contact .f-email p, .footer-top .f-contact .f-phn p {
+    color: white;
+}
+.sticky-menu .main-menu ul li a {
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    padding: 15px 5px;
+}
+.secondary-bg-color {
+    background-color: black !important;
+}
+.slider-area .menu-widget ul {
+    border: 1px solid #E90E8B;
+}
+.product-area .bt-deal {
+    border: 1px solid #E90E8B;
+}
+.product-area .ftr-product{
+    border: 1px solid #E90E8B;
+}
+.new-product-border{
+    border: 1px solid #E90E8B;
+    padding: 12px;
+}
+.slider-area .menu-widget ul li a {
+    border-bottom: 1px solid #E90E8B;
+    font-size: 16px;
+    font-weight: bold;
+}
+.slider-area .menu-widget ul li a:hover {
+    background: #E90E8B;
+    color: white;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .tab-item .tab-heading p a {
+    color: #E90E8B;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .tab-item .tab-heading p a:hover {
+    color: black;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .tab-item .tab-heading ul li a {
+    color: black;
+}
+.category .product-box .tab-content .tab-pane .tab-item .tab-heading p a {
+    color: #E90E8B;
+}
+.category .product-box .tab-content .tab-pane .tab-item {
+    border: 1px solid #f37cbd;
+}
+.category .product-box .tab-content .tab-pane .tab-item .img-content ul.fav li i {
+    color: #E90E8B;
+}
+.product-area .ftr-product .tab-box ul.nav li.nav-item a.nav-link.active {
+    background: #E90E8B;
+}
+.product-area .ftr-product .tab-box .sec-title h5 {
+    color: #E90E8B;
+}
+.product-area .bt-deal .sec-title h6 {
+    color: #E90E8B;
+}
+.product-area .bt-deal .bt-body .bt-items .bt-box .bt-content p a {
+    color: #E90E8B;
+}
+.product-area .bt-deal .bt-body .bt-items .bt-box .bt-content ul.fav li {
+    color: #E90E8B;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .tab-item .img-content ul.fav li i {
+    color: #E90E8B;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .tab-item .img-content a {
+    background: linear-gradient(to bottom, #ffffff 0%, #e90e8b 100%);
+    border: 1px solid #E90E8B;
+}
+.category .product-box .tab-content .tab-pane .tab-item .img-content a {
+    background: linear-gradient(to bottom, #ffffff 0%, #e90e8b 100%);
+    border: 1px solid #E90E8B;
+}
+.newPro{
+    color: #E90E8B !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+}
+.top-bar {
+    height: 40px;
+    border-bottom: 1px solid #E90E8B;
+}
+.top-bar .top-left .lang-box {
+    border: 1px solid #E90E8B;
+}
+.top-bar .top-right ul li:first-child a {
+    border-left: 1px solid #E90E8B;
+}
+.top-bar .top-right ul li a {
+    color: #555555;
+    border-right: 1px solid #E90E8B;
+}
+.top-bar .top-left .f-social .fa {
+    color: #E90E8B;
+}
+.logo-area2 form.search-bar input {
+    border: 1px solid #E90E8B;
+}
+.logo-area2 form.search-bar button {
+    color: #E90E8B;
+}
+.logo-area2 form.search-bar input:focus {
+    border-color: black;
+}
+.product-area .bt-deal .bt-body .owl-nav div:hover {
+    background: #E90E8B;
+    color: #fff;
+    border-color: #a34c7e;
+}
+.product-area .ftr-product .tab-content .tab-pane .tab-slider .owl-nav div:hover {
+    background: #E90E8B;
+    color: #fff;
+}
+.category .product-box .pagination-box ul li.active a {
+    background: #E90E8B;
+    color: #fff;
+}
+.category .product-box .pagination-box ul li a {
+    color: #E90E8B;
+}
+.sticky-menu .carts-area .cart-box a span {
+    background: #000000;
+}
