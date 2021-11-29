@@ -1,0 +1,40 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1)), url('images/home-page/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+}
+
+.parent{
+    position:relative;
+    width:100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.child{
+    position:absolute;
+    width: 95vw;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.images{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.images:hover {
+    transform: scale(1.05);
+    transition: all .5s;
+    /*transform-origin: bottom right 60px;*/
+}
